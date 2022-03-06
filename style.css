@@ -1,0 +1,78 @@
+/* .App {
+  /* font-family: sans-serif;
+  text-align: center; */
+/* } */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(249, 250, 251);
+}
+img {
+  width: 140px;
+  display: block;
+  margin: 6px;
+}
+.logo_Header {
+  border: 1px solid rgba(162, 159, 159, 0.427);
+  height: 70px;
+  width: 120%;
+  margin: -7px;
+  background-color: white;
+}
+li.airlines {
+  border: 1px solid rgba(147, 147, 147, 0.201);
+  list-style: none;
+  display: block;
+  height: 200px;
+  width: 25%;
+  float: left;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 12px;
+  list-style: none;
+  color: #000000;
+  font-family: HelveticaNeue;
+  font-weight: bold;
+  font-size: 16px;
+}
+li.airlines:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(207, 204, 204, 0.995);
+}
+.title {
+  font-size: 44px;
+  font-weight: 900;
+  color: #000000;
+  font-family: helveticaNeue;
+}
+li img {
+  width: 40px;
+  float: left;
+}
+.menu_container {
+  list-style: none;
+  height: 70px;
+  display: block;
+}
+li.menu_content {
+  float: left;
+  margin: 5px;
+}
+.airlinePhone {
+  color: #5a6872;
+}
+
+a {
+  float: left;
+  font: helveticaNeue;
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  color: #5a6872;
+  text-decoration: none;
+}
+.allianceName {
+  float: left;
+  width: 120px;
+}
